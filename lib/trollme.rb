@@ -1,7 +1,10 @@
-require "trollme/version"
+require 'trollme/version'
+require 'trollme/downloader'
 
 module Trollme
+  module_function
+
   def run
-    puts 'hi'
+    Downloader::call
   end
 end
