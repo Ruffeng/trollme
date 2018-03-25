@@ -1,10 +1,12 @@
 require 'trollme/version'
 require 'trollme/downloader'
+require 'trollme/change_background'
 
 module Trollme
   module_function
 
   def run
-    Downloader::call
+    path = Downloader::call
+    ChangeBackground::call(path)
   end
 end

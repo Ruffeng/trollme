@@ -1,6 +1,5 @@
 require 'open-uri'
 require 'fakefs/spec_helpers'
-require 'pry'
 require 'spec_helper'
 
 describe Trollme::Downloader do
