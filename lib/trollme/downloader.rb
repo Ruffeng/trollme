@@ -3,6 +3,7 @@ require 'open-uri'
 module Trollme
   module Downloader
     module_function
+
     SetFolder = Class.new(RuntimeError)
     OpenFile = Class.new(RuntimeError)
     SaveFile = Class.new(RuntimeError)

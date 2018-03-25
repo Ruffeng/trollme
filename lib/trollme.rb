@@ -6,7 +6,7 @@ module Trollme
   module_function
 
   def run
-    path = Downloader::call
-    ChangeBackground::call(path)
+    path = Downloader.call
+    ChangeBackground.call(path)
   end
 end
