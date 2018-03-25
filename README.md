@@ -7,6 +7,7 @@ As well is important to say that right now it just works with Mac. I know it's n
 **Why do I want to do that?**
 
 Just looking to prank some people in a funny and inoffensive way. At the end we teach them to lock their screens and help the enterprise to apply the ISO Quality Management, don't we?
+
 ![time to troll!](https://media.giphy.com/media/q8pghZNgAQ0rm/giphy.gif)
 ## Installation
 Is quite easy:
