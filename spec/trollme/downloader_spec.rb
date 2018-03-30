@@ -4,10 +4,11 @@ require 'spec_helper'
 
 describe Trollme::Downloader do
   include FakeFS::SpecHelpers
-  let(:call) { Trollme::Downloader.call }
-  let(:picture) { 'picture/jpg' }
+  let(:topic) { { 'file' => 'picture.jpg', 'url' => 'someurl.com'} }
+  let(:picture) { topic['file'] }
+  let(:call) { Trollme::Downloader.call(topic) }
   let(:path) { "/Users/testUser/Downloads/#{picture}" }
-  let(:buffer) { instance_double(File, path: picture) }
+  let(:buffer) { instance_double(File, path: picture)  }
   let(:config) { File.expand_path('~/Downloads', __FILE__) }
 
   before do

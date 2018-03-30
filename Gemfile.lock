@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    trollme (0.1.0)
+    trollme (0.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -33,8 +33,8 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  fakefs
-  pry
+  fakefs (~> 0.13)
+  pry (~> 0.11)
   rake (~> 10.0)
   rspec (~> 3.0)
   trollme!
