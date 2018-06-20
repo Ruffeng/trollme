@@ -1,5 +1,4 @@
 require 'yaml'
-require 'pry'
 
 module Trollme
   module Topic
