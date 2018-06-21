@@ -1,4 +1,185 @@
-mairena:
+dogs:
   - 
+    file: dog_biscuit.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566893/dogs/DOG-TROLL-BISCUIT.jpg
+  -
+    file: dog_tongue.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566892/dogs/DOG-TROLL-CUTE.jpg
+  -
+    file: dog_ears.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566890/dogs/DOG-TROLL-HEAR.jpg
+  -
+    file: dog_look.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566890/dogs/DOG-TROLL-LOOK.jpg
+  -
+    file: dog_date.jpb
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566890/dogs/DOG-TROLL-DATE.jpg
+  -
+    file: dog_happy.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566889/dogs/DOG-TROLL-HEY.jpg
+  -
+    file: dog_snob.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566889/dogs/DOG-TROLL-SNOB.jpg
+  -
+    file: dog_trex.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566889/dogs/DOG-TROLL-TREX.jpg
+  -
+    file: dog_laugh.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566889/dogs/DOG-TROLL-LAUGH.jpg
+  -
+    file: dog_style.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566888/dogs/DOG-TROLL-STYLE.jpg
+  -
+    file: dog_smile.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566888/dogs/DOG-TROLL-TROLLED.jpg
+  -
+    file: dog_lick.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566888/dogs/DOG-TROLL-SCREEN.jpg
+  -
+    file: dog_pirate.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566888/dogs/DOG-TROLL-PIRATE.jpg
+
+horror:
+  -
+    file: exorcist.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566993/horror/SCARY-TROLL-EXORCIST.jpg
+  -
+    file: zombie_girl.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566992/horror/SCARY-TROLL-CUTTER.jpg
+  -
+    file: it.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566992/horror/SCARY-TROLL-CLOWN.jpg
+  -
+    file: michael_myers.jpb
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566991/horror/SCARY-TROLL-HALLOWEEN.jpg
+  -
+    file: zombie.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566991/horror/SCARY-TROLL-BRAINS.jpg
+  -
+    file: chainsaw.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566991/horror/SCARY-TROLL-LOCK.jpg
+  -
+    file: jason_voorhees.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566990/horror/SCARY-TROLL-WAITING.jpg
+  -
+    file: beetlejuice.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566990/horror/SCARY-TROLL-TROLLERJUICE.jpg
+  -
+    file: prayer.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529566989/horror/SCARY-TROLL-PRAY.jpg
+
+memes:
+  -
+    file: troller.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567163/memes/TROLL-MEMES-TROLL.jpg
+  -
+    file: angry_kid.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567163/memes/TROLL-MEME-BABY.jpg
+  -
+    file: no_please_no.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567162/memes/TROLL-MEMES-NOOO.jpg
+  -
+    file: wat_sense.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567162/memes/TROLL-MEMES-BORING.jpg
+  -
+    file: wonka.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567162/memes/TROLL-MEMES-FEEL.jpg
+  -
+    file: trump_trolled.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567162/memes/TROLL-MEMES-TRUMP.jpg
+  -
+    file: kid_skeptical.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567161/memes/TROLL-MEMES-TELLING.jpg
+
+nerds: 
+  -
+    file: magnum.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567055/nerds/FAMOUS-TROLL-ZOOLANDER.jpg
+  - 
+    file: office_guy.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567055/nerds/FAMOUS-TROLL-OFFICE2.jpg
+  -
+    file: bruno_sacha.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567054/nerds/FAMOUS-TROLL-BRUNO.jpg
+  -
+    file: borat_sacha.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567054/nerds/FAMOUS-TROLL-BORAT.jpg
+  -
+    file: dwight_office.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567054/nerds/FAMOUS-TROLL-OFFICE.jpg
+  -
+    file: bean_bored.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567054/nerds/FAMOUS-TROLL-BEAN.jpg
+  -
+    file: ali_g_sacha.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567053/nerds/FAMOUS-TROLL-ALIG.jpg
+  -
+    file: dumber_carrey.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567052/nerds/FAMOUS-TROLL-JIM.jpg
+  -
     file: mairena.jpg
-    url: https://ep00.epimg.net/elpais/imagenes/2017/06/14/fotorrelato/1497431610_448226_1497432498_album_normal.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567052/nerds/FAMOUS-TROLL-MAIRENA.jpg
+  - 
+    file: austin_powers.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567051/nerds/FAMOUS-TROLL-AUSTIN.jpg
+
+cats: 
+  -
+    file: cat_squad.jpb
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567322/pussycat/CAT-TROLL-SQUAD.jpg
+  -
+    file: cat_tongue.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567321/pussycat/CAT-TROLL-LOCK.jpg
+  -
+    file: cat_surrender.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567321/pussycat/CAT-TROLL-SURRENDER.jpg
+  -
+    file: reservoir_cat.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567321/pussycat/CAT-TROLL-RESERVOIR.jpg
+  -
+    file: cat_warm.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567321/pussycat/CAT-TROLL-HAT.jpg
+  -
+    file: cat_look.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567320/pussycat/CAT-TROLL-TELL.jpg
+  -
+    file: cat_up.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567319/pussycat/CAT-TROLL-ON.jpg
+  -
+    file: please_cat.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567319/pussycat/CAT-TROLL-PLEASE.jpg
+  -
+    file: cat_tongue.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567318/pussycat/CAT-TROLL-GOT.jpg
+  -
+    file: cat_oh_no.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567318/pussycat/CAT-TROLL-OHNO.jpg
+  - 
+    file: grumpy_trolled.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567317/pussycat/CAT-TROLL-GRUMPY.jpg
+  -
+    file: batcat.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567317/pussycat/CAT-TROLL-BATCAT.jpg
+  -
+    file: grumpy_no.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567317/pussycat/CAT-TROLL-GRUMPY2.jpg
+
+sweet:
+  -
+    file: baby_sweet.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567588/sweet/SWEET_TROLL-WHAT.jpg
+  - 
+    file: guinea_blonde.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567587/sweet/SWEET_TROLL-DIVA.jpg
+  - 
+    file: guinea_sweet.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567586/sweet/SWEET_TROLL-FRIEND.jpg
+  -
+    file: teddy_sweet.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567586/sweet/SWEET_TROLL-LOVE.jpg
+  -
+    file: guinea_unicorn.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567585/sweet/SWEET_TROLL-UNICORNPIG.jpg
+  - 
+    file: amazon_wishlist.jpg
+    url: https://res.cloudinary.com/dhorp8suj/image/upload/v1529567585/sweet/SWEET_TROLL-AMAZON.jpg

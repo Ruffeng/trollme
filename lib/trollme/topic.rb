@@ -19,7 +19,7 @@ module Trollme
       end
 
       def downcase_topic(topic)
-        topic.downcase! if topic
+        topic.downcase if topic
       end
 
       def topics_path
