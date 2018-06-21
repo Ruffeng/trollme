@@ -1,4 +1,3 @@
-require 'pry'
 require 'open-uri'
 module Trollme
   module Downloader
@@ -8,13 +7,12 @@ module Trollme
     OpenFile = Class.new(RuntimeError)
     SaveFile = Class.new(RuntimeError)
 
-    PICTURE = 'mairena.jpg'.freeze
-    URL = 'https://ep00.epimg.net/elpais/imagenes/2017/06/14/fotorrelato/1497431610_448226_1497432498_album_normal.jpg'.freeze
 
-    def call
+    def call(topic)
+      set_defaults(topic)
       set_folder
-      if File.exist?(PICTURE)
-        get_existing_file(PICTURE)
+      if File.exist?(@file)
+        get_existing_file(@file)
       else
         download_image_and_return_path
       end
@@ -29,6 +27,11 @@ module Trollme
     class << self
       private
 
+      def set_defaults(topic)
+        @file = topic['file']
+        @url = topic['url']
+      end
+
       def set_folder
         Dir.chdir(File.expand_path('~/Downloads'))
       rescue Errno::ENOENT
@@ -40,15 +43,15 @@ module Trollme
       end
 
       def download_image_and_return_path
-        file = File.open(PICTURE, 'wb') { |new_file| write_image(new_file) }
-        get_existing_file(file.path)
+        new_file = File.open(file, 'wb') { |new_file| write_image(new_file) }
+        get_existing_file(new_file.path)
       rescue Errno::ENOENT
         rollback
         raise SaveFile
       end
 
       def write_image(file)
-        file << open(URL).read
+        file << open(url).read
       rescue Errno::ENOENT
         rollback
         raise OpenFile
@@ -58,8 +61,10 @@ module Trollme
       end
 
       def rollback
-        File.delete(PICTURE)
+        File.delete(file)
       end
+
+      attr_reader :file, :url
     end
   end
 end
